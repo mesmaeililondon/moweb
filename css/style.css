@@ -1,0 +1,228 @@
+body{
+  color:#40515E;
+  margin:0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  font-size: 200%;
+}
+
+
+h1{
+  font-size: 5.625rem; /*16px = 100%= 1em  90px 90/16=5.625= 562.5% so 90px=5.625em */
+  margin: 50px auto 0 auto; /* 50px top auto centred right 0 bottom auto centred for left */
+  font-family: 'Sacramento', cursive;
+  color:#66BFBF;
+  /* line-height: 2; */
+}
+
+h2{
+font-family: 'Montserrat', sans-serif;
+font-size: 2.5rem;
+color:#66BFBF;
+font-weight:normal;
+padding-bottom:10px;
+}
+
+h3{
+  font-family: 'Montserrat', sans-serif;
+  color:#11999E;
+}
+
+p{
+  line-height: 2;
+}
+
+hr{
+  border: dotted #EAF6F6 6px ;
+  border-bottom: none;
+  width:4%;
+  margin:100px auto;
+}
+
+a{
+  color:#11999E;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+}
+
+a:hover{
+  color:#EAF6F6;
+}
+
+.topcontainer{
+  background-color:#E4F9F5;
+  position:relative;
+  padding:100px;
+}
+
+.topcloud{
+  position:absolute;
+  right:300px;
+  top:40px;
+  /* top:10px;
+  left:200px; */
+
+}
+
+.bottomcloud{
+  position: absolute;
+  left:250px;
+}
+
+
+.middlecontainer{
+  margin:100px 0; /* 100px for top and bottom and 0 for left and right */
+
+}
+
+.bottom-container{
+background-color: #66BFBF;
+margin-top:50px;
+padding:50px 0 20px; /* 50px top 0 left and right and 20px from the bottom*/
+}
+
+.pro{
+  text-decoration: underline;
+}
+
+.skill-row{
+width: 50%;
+margin:100px auto 100px auto;
+/* text-align: left; */
+}
+
+/* .middle-container{
+  width: 50%;
+  margin:100px auto 100px auto;
+}
+ */
+
+.university-row{
+  width: 50%;
+  margin:100px auto 100px auto;
+  /* text-align: left; */
+}
+
+
+.skills-img{
+  width: 25%;
+}
+
+.QMUL-img{
+  width: 25%;
+}
+
+.mohammad-pic{
+    width: 12%;
+    margin-top:40px;
+}
+
+
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999d);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999d);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999d);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999d);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999d);
+  -webkit-border-radius: 9;
+  -moz-border-radius: 9;
+  border-radius: 9px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+
+.footer-link{
+  margin-top:50px;
+}
+
+
+.intro{
+  width:20%;
+  margin:auto;
+}
+
+
+.contact-msg{
+  width:40%;
+  margin:40px auto 60px; /* 40 px top auto for left and right and 60px from the bottom */
+}
+
+
+.copyright{
+  color:#EAF6F6;
+  font-size: 0.75rem;  /*75% of 16px */
+  padding: 20px 0; /* 20 px top and bottom and 0px left and right*/
+}
+
+
+
+.topnav {
+  background-color: #66BFBF;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.topsection-home-btn{
+    background-color: 	#cccccc;
+      /* margin-bottom:10px; */
+      padding-bottom: 10px;
+      padding-right:1450px;
+}
+
+.contact-form{
+  background-color: #cccccc;
+}
+
+.bottom-section-contact{
+  background-color: #cccccc;
+}
+
+.topcontainer-contact{
+  width: 100%;
+  height: 100%;
+
+}
+
+
+.bottomcontainer-contact{
+
+  background-image: url('../images/beach-pic.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
